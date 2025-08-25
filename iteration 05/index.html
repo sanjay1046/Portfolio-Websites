@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[#0a0f1a] text-[#e0e0e0]">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanjay Muruganandam | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    ::selection { background-color: #3bd7ff; color: #0a0f1a; }
+  </style>
+</head>
+
+<body class="bg-[#0a0f1a] text-[#e0e0e0]">
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 bg-[#101622] shadow border-b border-[#1a1f2b]">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-[#3bd7ff]">Sanjay M</h1>
+      <nav class="space-x-4 text-sm">
+        <a href="#about" class="hover:text-[#1bd49e] transition">About</a>
+        <a href="#education" class="hover:text-[#1bd49e] transition">Education</a>
+        <a href="#skills" class="hover:text-[#1bd49e] transition">Skills</a>
+        <a href="#projects" class="hover:text-[#1bd49e] transition">Projects</a>
+        <a href="#certifications" class="hover:text-[#1bd49e] transition">Certifications</a>
+        <a href="#contact" class="hover:text-[#1bd49e] transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-32 bg-gradient-to-r from-[#1a1f2b] to-[#003844]" data-aos="fade-up">
+    <h2 class="text-5xl font-extrabold mb-4 text-[#3bd7ff]">Hey, I'm Sanjay 👋</h2>
+    <p class="text-xl text-[#b3cbd1]">CSE @ SASTRA | Full-Stack & ML Enthusiast</p>
+    <a href="#projects" class="mt-8 inline-block bg-[#1bd49e] text-[#0a0f1a] font-semibold px-6 py-2 rounded hover:scale-105 transition-transform">Explore My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 px-6 md:px-20" data-aos="fade-up">
+    <h2 class="text-3xl font-semibold text-[#1bd49e] mb-6">About Me</h2>
+    <p class="max-w-3xl text-lg leading-relaxed">I'm a Computer Science student at SASTRA with a minor in Robotics & Automation. I enjoy building intelligent, practical systems using ML, IoT, and full-stack technologies. Currently pursuing an Hons. degree and working on real-world automation challenges.</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-20 px-6 md:px-20 bg-[#101622]" data-aos="fade-right">
+    <h2 class="text-3xl font-semibold text-[#1bd49e] mb-8">Education</h2>
+    <div class="grid gap-6 md:grid-cols-2">
+      <div class="bg-[#1a1f2b] p-6 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-xl text-[#3bd7ff] font-bold">SASTRA University</h3>
+        <p>B.Tech CSE (2022–2026)<br>CGPA: 8.5475<br>Minor in Robotics & Automation</p>
+      </div>
+      <div class="bg-[#1a1f2b] p-6 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-xl text-[#3bd7ff] font-bold">Blossom Public School</h3>
+        <p>Grade X: 93.2%<br>Grade XII: 93.4%</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-20 px-6 md:px-20" data-aos="zoom-in">
+    <h2 class="text-3xl font-semibold text-[#1bd49e] mb-8">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div class="bg-[#1a1f2b] p-4 rounded">C/C++</div>
+      <div class="bg-[#1a1f2b] p-4 rounded">Java</div>
+      <div class="bg-[#1a1f2b] p-4 rounded">Python</div>
+      <div class="bg-[#1a1f2b] p-4 rounded">HTML/CSS/JS</div>
+      <div class="bg-[#1a1f2b] p-4 rounded">Django / AJAX</div>
+      <div class="bg-[#1a1f2b] p-4 rounded">MongoDB / MySQL</div>
+      <div class="bg-[#1a1f2b] p-4 rounded">Git / Arduino</div>
+      <div class="bg-[#1a1f2b] p-4 rounded">GCP / Blynk</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 px-6 md:px-20 bg-[#101622]" data-aos="fade-up">
+    <h2 class="text-3xl font-semibold text-[#1bd49e] mb-8">Projects</h2>
+    <div class="grid gap-6 md:grid-cols-2">
+      <div class="bg-[#1a1f2b] p-6 rounded shadow">
+        <h3 class="text-[#3bd7ff] font-bold">Smart Water Management</h3>
+        <p>IoT-based home automation for water usage and monitoring</p>
+      </div>
+      <div class="bg-[#1a1f2b] p-6 rounded shadow">
+        <h3 class="text-[#3bd7ff] font-bold">Heart Disease Prediction</h3>
+        <p>ML with metaheuristics to improve prediction accuracy</p>
+      </div>
+      <div class="bg-[#1a1f2b] p-6 rounded shadow">
+        <h3 class="text-[#3bd7ff] font-bold">Movie Recommendation Chatbot</h3>
+        <p>NLP-based chatbot using TF-IDF & similarity score logic</p>
+      </div>
+      <div class="bg-[#1a1f2b] p-6 rounded shadow">
+        <h3 class="text-[#3bd7ff] font-bold">Taskify Lite</h3>
+        <p>Node.js task manager API with DB integration</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="py-20 px-6 md:px-20" data-aos="fade-left">
+    <h2 class="text-3xl font-semibold text-[#1bd49e] mb-8">Certifications</h2>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Google Cloud Computing Foundations – IIT Kharagpur</li>
+      <li>Introduction to Machine Learning – IIT Madras</li>
+      <li>Privacy & Security in Online Social Media – IIIT Hyderabad</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 md:px-20 bg-[#101622]" data-aos="fade-up">
+    <h2 class="text-3xl font-semibold text-[#1bd49e] mb-8">Contact</h2>
+    <div class="space-y-2">
+      <p><span class="text-[#3bd7ff]">Email:</span> <a href="mailto:sanjay10mcm@gmail.com" class="underline">sanjay10mcm@gmail.com</a></p>
+      <p><span class="text-[#3bd7ff]">Phone:</span> +91-7094311825</p>
+      <p><span class="text-[#3bd7ff]">GitHub:</span> <a href="https://github.com/sanjay1046" target="_blank" class="underline">github.com/sanjay1046</a></p>
+      <p><span class="text-[#3bd7ff]">LinkedIn:</span> <a href="https://linkedin.com/in/sanjay-m010" target="_blank" class="underline">linkedin.com/in/sanjay-m010</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm py-6 bg-[#0a0f1a] border-t border-[#1a1f2b]">
+    &copy; 2025 Sanjay Muruganandam
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
